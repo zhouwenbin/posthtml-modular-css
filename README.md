@@ -34,7 +34,8 @@ gulp.task('posthtml', function () {
 	<h1>title</h1>
 	<p>Some text</p>
 </div>
-
+```
+```css
 /*box.css*/
 .box{
 	background: #ccc;
@@ -49,7 +50,8 @@ gulp.task('posthtml', function () {
 /*button.html*/
 <css src="css/button.css"></css>
 <a href="http://best-url-ever.com" class="button">button</a>
-
+```
+```css
 /*button.css*/
 .button{
 	display: block;
